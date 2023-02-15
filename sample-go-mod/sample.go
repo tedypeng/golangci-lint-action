@@ -11,6 +11,7 @@ import (
 func Hash(data string) string {
 	retError()
 	retError2()
+	
 
 	h := md5.New()
 	h.Write([]byte(data))
